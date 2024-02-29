@@ -212,8 +212,7 @@
         width: unset    ;
     }
     .collection .wrp .collection_items .Item {
-        width: calc((100% - 24px ) / 2);
-    }
+        width: 100%
 }
 @media(max-width:391px){
     .cart .wrp .col_left .bottom{
