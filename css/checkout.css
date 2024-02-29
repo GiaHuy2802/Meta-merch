@@ -260,6 +260,11 @@ input[type="radio"] {
     .cart .wrp .col_right .wrp1{
     width: 100%;}
 }
+@media(max-width:768px){
+    .shipping form .select{
+        gap: 12px;
+    }
+}
 @media(max-width:431px){
     .shipping.payment .state .price{
         display: none;
