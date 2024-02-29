@@ -576,6 +576,9 @@ a.color3 span{
         width:100% ;
         padding: 0 8px;
     }
+    .type a:hover{
+        border: unset;
+    }
     .page_num .seri_page{
         display: none;
     }
