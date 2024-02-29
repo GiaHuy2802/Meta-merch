@@ -188,7 +188,9 @@ header .wrp1 a.menu-button{
 @media(max-width:767px){
     header .wrp1{
         flex-direction: column;
-        gap: 12px;}
+        gap: 12px;
+    
+    }
     .wrp1 .Search_trend{
         width: unset;
     }
@@ -215,14 +217,21 @@ header .wrp1 a.menu-button{
         gap: unset;
         justify-content: space-between;
     }
+   
     footer .wrp{
         gap: 12px;
+      
     }
     footer .wrp .col{
         width:unset;
     }
 }
 @media(max-width:431px){
+    header .wrp1{   
+        flex-wrap: wrap;
+        flex-direction: unset;
+
+    }
     .wrp1 .wallet a.wall{
         padding: 12px;
     }
@@ -234,6 +243,17 @@ header .wrp1 a.menu-button{
     }
     footer .copyright .wrp{
         align-items: center;
+    }
+    header .wrp1 a{
+        order: 1
+        ;
+    }
+    .wrp1 .Search_trend{
+        order: 3;
+    }
+    .wrp1 .wallet{
+        width: 38%;
+        order: 2;
     }
     .wrp1 .Search_trend {
     width: 100%;
