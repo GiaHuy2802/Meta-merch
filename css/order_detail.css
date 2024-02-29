@@ -1,0 +1,288 @@
+.wrp_order_detail{
+    background: #202121;
+    padding: 24px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+span.shipping{
+    padding-left: 10px;
+    border-left: 1px solid #FFFFFF3D;
+    color: #00FFF0;
+
+}
+.infor1 strong{
+    padding-right: 10px;
+}
+.wrp_order_detail .progress{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.progress .pro{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.progress .pro a{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.progress .pro a span{
+    width: 120px;
+}
+.progress .pro a img{
+    width: 40%;
+}
+.progress hr{
+    border:1px solid #00FFF0 !important;
+    height: 1px;
+    width: 100%;
+    margin: 0;
+    
+    position: absolute;
+    top: 282px;
+    background: #fff;
+    /* border-radius: 40px 40px 0 0; */
+    /* padding: 40px 20px 24px; */
+    margin: 0;
+    /* line-height: 48px; */
+    width: 148px;
+    margin-left: -31px;
+
+}
+.progress hr.n1{
+    right: 824px;
+}
+.progress hr.n2{
+    right: 619px;
+}
+.progress hr.n3{
+    right: 416px;
+}
+.progress hr.n4{
+    right: 213px;
+}
+.wrp_order_detail .code{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 24px;
+    background: #292929;
+    align-items: center;
+    border-radius: 8px;
+}
+.wrp_order_detail .code a.apply{
+    padding: 12px 80px;
+    width: unset;
+    color: #FFFFFF66;
+    background: #444444;
+
+}
+.wrp_order_detail .order_infor{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.order_infor .line{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    margin-bottom: 16px;
+}
+
+.order_infor .line span{
+    width: 120px;
+    color: #FFFFFFA3;
+
+}
+.detail .wrp1_order_detail .order_infor{
+    gap: 24px;
+}
+
+.detail .wrp1_order_detail .order_infor .total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail .wrp1_order_detail .order_infor .total.first{
+    padding-top: 16px;
+    border-top: 1px dashed #FFFFFF3D;
+}
+.total.last{
+    border-top: 1px dashed #FFFFFF3D;
+}
+.detail .wrp1_order_detail .order_infor .total.last a{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+ .order_infor .total.last a img {
+    width: 24px;
+    height: 24px;
+ }
+.detail .wrp1_order_detail .order_infor .cart_pro{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.order_infor .cart_pro{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
+.order_infor .cart_pro .cart_detail{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.order_infor .cart_pro .cart_detail .cart_tag{
+    color: #FFFFFFA3;
+}
+.cart_detail .cart_tag span.futo
+{
+    color: #fff;
+}
+.detail .wrp1_order_detail .order_infor .total a{
+    gap: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+@media(max-width:1199px){
+    .col_right {
+        width: 100%;
+    }
+    .progress hr{
+        top: 291px;
+        width: 183px;
+    }
+    .progress hr.n1{
+        right: 846px;
+    }
+    .progress hr.n2 {
+        right: 609px;
+    }
+    .progress hr.n3 {
+        right: 372px;
+    }
+    .progress hr.n4{
+        right: 132px;
+    }
+}
+@media(max-width:1024px){
+    .progress hr{
+        top: 290px;
+        width: 147px;
+    }
+    .progress hr.n1{
+        right: 742px;
+    }
+    .progress hr.n2 {
+        right: 540px;
+    }
+    .progress hr.n3 {
+        right: 338px;
+    }
+    .progress hr.n4{
+        right: 132px;
+    }
+}
+@media(max-width:991px){
+    .progress hr{
+        top: 288px;
+        width: 126px;
+    }
+    .progress hr.n1{
+        right: 672px;
+    }
+    .progress hr.n2 {
+        right: 492px;
+    }
+    .progress hr.n3 {
+        right: 313px;
+    }
+    .progress hr.n4{
+        right: 134px;
+    }
+}
+@media(max-width:900px)and (min-width:800px){
+    .progress hr{
+        top: 289px;
+        width: 102px;
+    }
+    .progress hr.n1{
+        right: 607px;
+    }
+    .progress hr.n2 {
+        right: 450px;
+    }
+    .progress hr.n3 {
+        right: 292px;
+    }
+    .progress hr.n4{
+        right: 135px;
+    }
+}
+@media(max-width:768px){
+    .progress hr{
+        top: 287px;
+        width: 88px;
+    }
+    .progress hr.n1{
+        right: 550px;
+    }
+    .progress hr.n2 {
+        right: 410px;
+    }
+    .progress hr.n3 {
+        right: 271px;
+    }
+    .progress hr.n4{
+        right: 132px;
+    }
+}
+@media(max-width:431px){
+    .wrp_order_detail .progress{
+        display: none;
+    }
+    .wrp_order_detail .code{
+        display: none;
+    }
+    .order_infor .line span.ad{
+    width: 182px;
+    }
+}
+@media(max-width:391px){
+    .progress hr{
+        top: 300px;
+        width: 183px;
+    }
+    .progress hr.n1{
+        right: 846px;
+    }
+    .progress hr.n2 {
+        right: 609px;
+    }
+    .progress hr.n3 {
+        right: 372px;
+    }
+    .progress hr.n4{
+        right: 132px;
+    }
+    .order_infor .line span.ad{
+        width: 232px;
+        }
+}

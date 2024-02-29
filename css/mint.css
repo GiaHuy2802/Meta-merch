@@ -1,0 +1,19 @@
+.buy_button {
+  background: #05cae129;
+  justify-content: center;
+  border-radius: 8px;
+}
+.buy_button a {
+  background: unset;
+}
+.slider-for.slick-initialized.slick-slider.slick-slider .slick-track, .slick-slider .slick-list{
+    gap: unset;
+}
+@media (max-width: 1024px) {
+  .Product_detail .wrp {
+    flex-direction: column;
+  }
+  .Product_detail .col_right {
+    position: unset;
+  }
+}

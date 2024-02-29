@@ -1,0 +1,43 @@
+.error{
+    margin-bottom: var(--block-margin);
+    margin-top: var(--block-margin);
+}
+.error .wrp{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+
+} 
+.error .wrp img{
+    width: 300px;
+}
+.error h1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+}
+h1 span{
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+.error a span{
+    padding: 14px 24px;
+    color: #00FFF0;
+    background: #00FFF029;
+    border-radius: 8px;
+}
+@media(max-width:768px){
+    .error .wrp{
+        width: unset;
+    }
+}
+@media(max-width:431px){
+    .error .wrp{
+        width: unset;
+    }
+}

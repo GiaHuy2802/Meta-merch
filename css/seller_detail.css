@@ -1,0 +1,242 @@
+.seller_detail{
+    margin-bottom: 100px;
+}
+.seller_detail .wrp1{
+    width: 984px;
+}
+.col_right .heading{
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-between;
+}
+.heading .infor{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+.infor span.tag1{
+    padding: 1px 8px;
+    background: #00DCFF29;
+    color: #00DCFF; 
+    border-radius: 80px;
+}
+.infor span.tag2{
+    padding: 1px 8px;
+    background: #FFD70729;
+    color: #FFD707; 
+    border-radius: 80px;
+}
+.infor1 span{
+    color: #FFFFFFA3;
+
+}
+.wrp_detail{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.wrp_detail .detail_left{
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.par hr{
+    width: 100%;
+}
+.par h3{
+    padding: 0 12px;
+}
+span.edit strong{
+    color: #00FFF0;
+
+}
+.par.sum span.carl{
+    padding: 0 12px;
+}
+.par.fees span.carl{
+    padding: 0 12px;
+}
+.par.fees span.carl{
+    color: #FFFFFFA3;
+}
+.par.fees span.carl strong{
+    color: #ffffff;
+}
+.par.his span.carl, .carl1, .carl2{
+    padding: 0 12px;
+}
+.par.his span.carl1{
+    color: #EC2892;
+    display: flex;
+    gap: 48px;
+    flex-direction: row;
+}
+.par.his span.carl2{
+    color: #FFFFFFA3;
+    display: flex;
+    gap: 84px;
+    flex-direction: row;
+}
+.carl1 strong{
+    font-weight: 100;
+    color: #ffffff;
+}
+.carl2 i{
+    font-weight: 100;
+    color: #ffffff;
+}
+strong.paid{
+    color: #06FD87 !important;
+    background: #06FD8729;
+    padding: 1px 8px;
+    border-radius: 80px;
+
+}
+.detail_left .par{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 0;
+    background: #292929;
+    border-radius: 8px;
+}
+.par .img_infor{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding:  0 12px;
+}
+.img_infor .detail{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: space-between;
+}
+.img_infor .detail span{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.detail span.row{
+    color: #FFFFFFA3;
+
+}
+span.row strong{
+    color: #fff;
+}
+.detail_left .par.sum {
+    gap: 12px;
+}
+.par.sum span.carl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.detail_left .par.fees {
+    gap: 12px;
+}
+.par.fees span.carl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+span.carl strong{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.wrp_detail .detail_right{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.detail_right .par{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 0;
+    background: #292929;
+    border-radius: 8px;
+}
+.detail_right .par .detail{
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 12px;
+}
+.detail span.success{
+    color: #06FD87 !important;
+    background: #06FD8729;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-align: center;
+}
+.detail span.carl{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+mark{
+    background: unset;
+    color: #34e2e3;
+}
+.detail_right .par .detail.tags{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.detail.tags span{
+    padding: 1px 4px;
+    background: #444444;
+    border-radius: 80px;
+    gap: 4px;
+}
+@media(max-width:991px){
+    .seller_detail{
+        margin-bottom: unset;
+    }
+    .wrp1{
+        width: unset;
+    }
+    .wrp_detail .detail_left{
+        width: 100%;
+    }
+    .wrp_detail .detail_right{
+        width: 100%;
+    }
+}
+@media(max-width:450px){
+    .wrp_detail .detail_right{
+        display: none  ;
+    }
+    header .wrp1{
+        width: unset;
+    }
+    .wrp1{
+        width: unset;
+    }
+    .wrp_detail .detail_left{
+        width: unset;
+    }
+    .seller_detail .wrp{
+        padding: unset !important;
+    }
+}
+@media(max-width:391px){
+    .par.his span.carl2{
+        gap: 40px;
+        align-items: center;
+    }
+    .wrp_detail .detail_right{
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .seller_detail{padding-bottom: 40px;}
+}

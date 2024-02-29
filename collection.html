@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>collection</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/collection.css" />
+    <link rel="stylesheet" href="css/drop_down.css">
+  </head>
+  <body>
+    <header>
+      <div class="wrp1">
+    
+          <a href="">
+              <img src="css/icon/iconmeta.svg" alt="">
+          </a>
+          <div class="Search_trend">
+              <form id="live-search" action="" class="styled" method="post">
+                  <fieldset style="border: unset;">
+                      <input type="text" class="text-input" id="filter" value="" style="width: 100%;height: 30px;border-radius: 8px;" />
+                      <img src="css/icon/find.svg" alt="Find">
+  
+                  </fieldset>
+              </form>
+              <nav class="Trend">
+                  <a href="#" >
+                      <img src="css/icon/trending_up.svg" alt="">
+                  </a>
+                  <a href="">Merchize</a>
+                  <a href="">Merchize</a>
+                  <a href="">Merchize</a>
+                  <a href="">Merchize</a>
+                  <a href="">Merchize</a>
+              </nav>
+          </div>
+          <div class="wallet">
+              <a href="" class="wall">
+                  Connect wallet
+              </a>
+              <a href="">
+                  <img src="css/icon/bag-2.svg" alt="">
+              </a>
+          </div>
+      </div>   
+  </header>
+    <section class="menu">
+        <div class="wrp">
+          <nav class="home_menu">
+            <a href="./index.html">Home</a>
+            <a href="./collection.html">Explorer</a>
+            <a href="./Product_detail2D.html">Stats</a>
+            <a href="./shop.html">Resoures</a>
+            <a href="./profile.html">Create</a>
+          </nav>
+          <div class="contact">
+            <a href="">
+              <img src="css/icon/Telegram.svg" alt="" />
+            </a>
+            <a href="">
+              <img src="css/icon/gmail.svg" alt="" />
+            </a>
+            <a href="">
+              <img src="css/icon/discord.png" alt="" />
+            </a>
+            <a href="">
+              <img src="css/icon/twitter.png" alt="" />
+            </a>
+            <a href="">
+              <img src="css/icon/mail.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+    <section class="profile">
+      <div class="wrp">
+        <div class="pro">
+          <img src="images/pro1.svg" alt="" />
+        </div>
+        <div class="para">
+          <h1>Heart and SOL</h1>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </div>
+      </div>
+    </section>
+    <section class="filter">
+      <div class="wrp">
+        <div class="Col_left" id="colLeft">
+          <div class="mw_wrp">
+            <div class="heading">
+              <h3>Filters</h3>
+            </div>
+            <div class="search_product">
+              Search product
+              <form id="live-search" action="" class="styled" method="post">
+                <fieldset >
+                  <button type="submit"></button>
+                  <input
+                    type="text"
+                    class="text-input"
+                    id="filter"
+                    value=""
+                    placeholder="Enter name ..."
+                  required/>
+                  <span id="filter-count"></span>
+                </fieldset>
+              </form>
+            </div>
+            <div class="product_type">
+              <span>Product type</span>
+              <div class="groups">
+                <label for="">
+                  <input type="checkbox" name="sport" value="item01 đá" />item01
+                </label>
+                <label for="">
+                  <input type="checkbox" name="sport" value="item02" />item02
+                </label>
+                <label for="">
+                  <input type="checkbox" name="sport" value="item03" />item03
+                </label>
+                <label for="">
+                  <input type="checkbox" name="sport" value="item04" />item04
+                </label>
+                <label for="">
+                  <input type="checkbox" name="sport" value="item05" />item05
+                </label>
+                <label for="">
+                  <input type="checkbox" name="sport" value="item06" />item06
+                </label>
+                <label for="">
+                  <input type="checkbox" name="sport" value="item07" />item07
+                </label>
+              </div>
+            </div>
+            <div class="tag">
+              <span>Tags</span>
+              <div class="tag_items">
+                <a href="" class="active">merchize</a>
+                <a href="">foobla</a>
+                <a href="">abcxyz</a>
+                <a href="">qwerty</a>
+              </div>
+            </div>
+            <a href="" class="sumbit" style="display: none;">
+              Sumbit
+            </a>
+          </div>
+        </div>
+        <div class="Col_right">
+          <div class="top">
+              <a class="menu-button" href="#" style="display: none" id="toggleButton"> Lọc sản phẩm</a>
+              <div class='container' style="display: none;">
+                <div class='dropdown'>
+                  <div class='select'>
+                    <div class='selected placeholder'>Sort order</div>
+                    <div class='caret'></div>
+                  </div>
+                  <ul class='menuu'>
+                    <li>Low to hight</li>
+                    <li>hight to low</li>
+                    <li>Top seller</li>
+                    <li>New</li>
+                  </ul>
+                </div>
+              </div>
+            <div class="sort-order">
+              <span>Sắp xếp theo:</span>
+              <a href="">
+                <img src="css/icon/arrow-down-menu.svg" alt="">
+              </a>
+              <div class="drop-down">
+                <a href="">Popular</a>
+                <a href="">Top seller</a>
+                <a href="">New</a>
+                <a href="">Price low to high</a>
+                <a href="">Price high to low</a>
+              </div>
+            </div>
+            <div class="sort_by">
+              <span>Sort by</span>
+              <a href="" class="active">Popular</a>
+              <a href="">Top seller</a>
+              <a href="">New</a>
+              <a href="">Price low to high</a>
+              <a href="">Price high to low</a>
+            </div>
+            <div class="num_product">
+              1-24/357 products
+              <div class="arrow">
+                <a href="">
+                  <img src="css/icon/left.svg" alt="" />
+                </a>
+                <a href="">
+                  <img src="css/icon/arrow-left.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="collection_items">
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Item">
+              <a href="">
+                <img src="images/Rectangle 5.svg" alt="" />
+              </a>
+              <div class="Infor_item">
+                <span>Futo #4553</span>
+                <div class="percent">
+                  <div class="num">
+                    Sold: :
+                    <span>125</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <a href=""></a>
+                  <div class="price1">
+                    <span>32.563 USDC</span>
+                  </div>
+                  <div class="del">
+                    <del>33.12 USDC</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page_num">
+            <div class="seri_page">
+              <a href="">
+                <img src="css/icon/left.svg" alt="" />
+              </a>
+              <a href="">1</a>
+              <a href="">2</a>
+              <a href="">3</a>
+              <a href="">4</a>
+              <a href="">5</a>
+              <a href="">6</a>
+              <a href="">...</a>
+              <a href="">123</a>
+              <a href="">124</a>
+              <a href="">125</a>
+              <a href="">
+                <img src="css/icon/arrow-left.svg" alt="" />
+              </a>
+            </div>
+            <div class="num_page">
+              <a href="">20/page</a>
+              <a href="">
+                <img src="css/icon/down.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrp">
+          <div class="col head">
+              <a href="">
+                  <img src="./css/icon/iconmeta.svg" alt="">
+              </a>
+              <div class="column">
+                      The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.
+              </div>      
+          </div>
+          <div class="col">
+              <div class="heading">
+                  Customer Services
+              </div>
+              <div class="column">
+              <div class="row">
+                 <a href="" class="name">About us</a>
+              </div>
+              <div class="row">
+                 <a href="" class="name">Community Blog</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Rewards</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Work with Us</a>
+              </div>    
+              </div>      
+          </div>
+          <div class="col">
+              <div class="heading">
+                  Customer Services
+              </div>
+              <div class="column">
+              <div class="row">
+                 <a href="" class="name">About us</a>
+              </div>
+              <div class="row">
+                 <a href="" class="name">Community Blog</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Rewards</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Work with Us</a>
+              </div>    
+              </div>      
+          </div>
+          <div class="col">
+              <div class="heading">
+                  Customer Services
+              </div>
+              <div class="column">
+              <div class="row">
+                 <a href="" class="name">About us</a>
+              </div>
+              <div class="row">
+                 <a href="" class="name">Community Blog</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Rewards</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Work with Us</a>
+              </div>    
+              </div>      
+          </div>
+          <div class="col">
+              <div class="heading">
+                  Customer Services
+              </div>
+              <div class="column">
+              <div class="row">
+                 <a href="" class="name">About us</a>
+              </div>
+              <div class="row">
+                 <a href="" class="name">Community Blog</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Rewards</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Work with Us</a>
+              </div>    
+              </div>      
+          </div>
+          
+      </div>
+      <div class="copyright">
+          <div class="wrp">
+              <div class="row">
+                  © 2022 Metamerch
+              </div>
+              <dov class="row">
+                  <a href="">Privacy Policy</a>
+                  <a href="">Terms of Service</a>
+              </dov>
+          </div>
+      </div>
+  </footer>
+  </body>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/search.js"></script>
+<script src="js/nav-bar.js"></script>
+<script src="js/filter.js"></script>
+<script src="js/drop_down.js"></script>
+</html>

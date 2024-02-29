@@ -1,0 +1,59 @@
+.suggest{
+    padding-top: 40px;
+}
+.suggest .wrp .list_collection{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.suggest .wrp .list_collection .list_row{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #FFFFFF3D;
+    ;
+    padding: 16px;
+
+}
+.suggest .wrp .list_collection .list_row .items{
+    width: 204px;
+}
+.suggest .wrp .list_collection .list_row .items1{
+    width: unset;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.suggest .wrp .list_collection .list_row .items1 a.img1{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+.suggest .wrp .list_collection .list_row .price a.rev{
+display: flex;
+flex-direction: row;
+align-items: center;}
+@media(max-width:1199px){
+    .suggest{
+        padding-top: unset;
+    }
+}
+@media(max-width:450px){
+
+    .suggest .wrp .list_collection .list_row.head{
+        display: none;
+    }
+    .suggest .wrp .list_collection .list_row span{
+    }
+    .suggest .wrp .list_collection .list_row{
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+}

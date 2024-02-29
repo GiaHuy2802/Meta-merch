@@ -1,0 +1,133 @@
+.col_right .search_by{
+    align-items: center;
+    justify-content: space-between;
+}
+form label{
+    padding: 0 8px;
+}
+.tag_number{
+    display: flex;
+    flex-direction: row;
+    gap: 24px; 
+}
+.tag_number span{
+    align-items: center;
+    padding: 40px 60px;
+    background: #292929;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    text-align: center;
+}
+.tag_number span strong{
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    gap: 8px;
+}
+.seller_product .order_list span.name{
+    width: 230px;
+}
+.seller_product .order_list span.view{
+    width: 36px;
+}
+.seller_product .order_list span.Orders{
+    width: 41px;
+}
+.seller_product .order_list span.Unit{
+    width: 65px;
+}
+.seller_product .order_list span.Sales{
+    width: 73px;
+}
+.seller_product .order_list span.Conversion Rate{
+    width: 100px;
+}
+.seller_product .order_list span.Profit{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.seller_product .order_list span.Action{
+    width: 48px;
+}
+.list_collection .order_list{
+    gap: 30px;
+    text-align: center;
+}
+a.Action{
+    width: 48px;
+}
+.order_list.infor .infor{
+    width: 230px;
+}
+.order_list span{
+    display: unset;
+}
+
+@media(max-width:991px){
+    .seller_product .wrp{
+        padding: unset !important;
+    }
+    .col_right{
+        width: 932px;
+    }
+    .seller_product .wrp1{
+        width: 932px;
+    }
+    label{
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        align-items: center;
+    }
+}
+@media(max-width:768px){
+    .col_right{
+        width: 768px;
+    }
+    .seller_product .wrp1{
+        width: 768px;
+    }
+    .seller_product .order_list span.view{
+        display: none;
+    }
+    .seller_product .order_list span.Unit{
+        display: none;
+    }
+}
+@media(max-width:431px){
+    .col_right{
+        width: 430px;
+    }
+    .seller_product .wrp1{
+        width: 430px;
+    }
+    .tag_number{
+        display: none;
+    }
+    .seller_product .order_list span.Action{
+        display: none;
+    }
+    a.Action{
+        display: none;
+    }
+    .seller_product .order_list span.Orders{
+        display: none;
+    }
+}
+@media(max-width:391px){
+    .col_right{
+        width: 390px;
+    }
+    .seller_product .wrp1{
+        width: 390px;
+    }
+    .seller_product .order_list span.Sales{
+        display: none;
+    }
+
+}

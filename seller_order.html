@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seller Order</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
+    <link rel="stylesheet" href="css/seller_order.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@easepick/bundle@1.2.1/dist/index.umd.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrp1">
+          <a
+            class="menu-button"
+            href="#"
+            style="display: none"
+            id="toggleButton"
+          ></a>
+          <a href="">
+              <img src="css/icon/iconmeta.svg" alt="">
+          </a>
+          <div class="Search_trend">
+              <form id="live-search" action="" class="styled" method="post">
+                  <fieldset style="border: unset;">
+                      <input type="text" class="text-input" id="filter" value="" style="width: 100%;height: 30px;border-radius: 8px;" required />
+                      <button type="submit">
+                          <img src="css/icon/find.svg" alt="">
+                      </button>
+  
+                  </fieldset>
+              </form>
+              <nav class="Trend">
+                  <a href="#" >
+                      <img src="css/icon/trending_up.svg" alt="">
+                  </a>
+                  <a href="">Merchize</a>
+                  <a href="">Merchize</a>
+                  <a href="">Merchize</a>
+                  <a href="">Merchize</a>
+                  <a href="">Merchize</a>
+              </nav>
+          </div>
+          <div class="wallet">
+              <a href="" class="wall">
+                  Connect wallet
+              </a>
+              <a href="">
+                  <img src="css/icon/bag-2.svg" alt="">
+              </a>
+          </div>
+      </div>   
+  </header>
+    <section class="menu">
+        <div class="wrp">
+          <nav class="home_menu">
+            <a href="./index.html">Home</a>
+            <a href="./collection.html">Explorer</a>
+            <a href="./Product_detail2D.html">Stats</a>
+            <a href="./shop.html">Resoures</a>
+            <a href="./profile.html">Create</a>
+          </nav>
+          <div class="contact">
+            <a href="">
+              <img src="css/icon/Telegram.svg" alt="" />
+            </a>
+            <a href="">
+              <img src="css/icon/gmail.svg" alt="" />
+            </a>
+            <a href="">
+              <img src="css/icon/discord.png" alt="" />
+            </a>
+            <a href="">
+              <img src="css/icon/twitter.png" alt="" />
+            </a>
+            <a href="">
+              <img src="css/icon/mail.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+    <section class="seller_order">
+      <div class="wrp">
+        <div class="col_left" id="menuContainer">
+          <div class="wrp_col_left">
+            <div class="header">
+              <img src="images/Ellipse 6.svg" alt="" />
+              <div class="gmail">
+                <h3>Hoa Bui</h3>
+                hoabui7749@gmail.com
+              </div>
+            </div>
+            <div class="account">
+              <h3>My account</h3>
+              <div class="icon">
+                <a href=""></a>
+                Account infomation
+              </div>
+              <div class="icon">
+                <a href="./Cart.html"></a>
+                Payment infomation
+              </div>
+              <div class="icon">
+                <a href="./checkout.html  "></a>
+                Address book
+              </div>
+              <div class="icon">
+                <a href="./Cart.html"></a>
+                cart
+              </div>
+            </div>
+            <div class="account">
+              <h3>My listings</h3>
+              <div class="icon active">
+                <a href="./My_nft.html"></a>
+                Listings
+              </div>
+              <div class="icon">
+                <a href="./seller_order.html"></a>
+                Orders
+              </div>
+              <div class="icon">
+                <a href="./profit.html"></a>
+                Profit 
+              </div>
+              <div class="icon">
+                <a href="./order_detail.html"></a>
+                All orders
+              </div>
+            </div>
+            <div class="account">
+              <h3>My account</h3>
+              <div class="icon">
+                <a href="./order_detail.html"></a>
+                Processing
+              </div>
+              <div class="icon">
+                <a href="Thankyou.html"></a>
+                Completed
+              </div>
+              <div class="icon">
+                <a href="cart empty.html"></a>
+                Cancelled
+              </div>
+              <div class="icon">
+                <a href="./404.html"></a>
+                Return
+              </div>
+            </div>
+            <div class="account">
+              <div class="icon">
+                <a href=""></a>
+                Log out
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col_right">
+          <div class="wrp1">
+            <div class="heading">
+              <h1>Orders</h1>
+              Complete your profile for a better shopping experience
+            </div>
+            <div class="status">
+              <div class="order_status">
+                <span>Order status</span>
+                <div class="check">
+                  <a href="" class="active">All</a>
+                  <a href="" class="bet">Open</a>
+                  <a href="">Archive</a>
+                </div>
+              </div>
+              <div class="order_status">
+                <span>Order status</span>
+                <div class="check">
+                  <a href="" class="active">All</a>
+                  <a href="" class="bet">Open</a>
+                  <a href="">Archive</a>
+                </div>
+              </div>
+              <div class="order_status">
+                <span>Order status</span>
+                <div class="check">
+                  <a href="" class="active">All</a>
+                  <a href="" class="bet">Open</a>
+                  <a href="">Archive</a>
+                </div>
+              </div>
+            </div>
+            <div class="search_by">
+              <div class="col_left1">
+                <h3 style="width: 100%">Search by</h3>
+                <div class="search">
+                  <div class="number">
+                    <form action="/action_page.php">
+                      <select name="cars" id="mySelect">
+                        <option value="volvo">Order number</option>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </form>
+                  </div>
+                  <div class="search_bar">
+                    <img src="css/icon/Search-other.svg" alt="" />
+                    <form action="/action_page.php">
+                      <input
+                        type="search"
+                        id="gsearch"
+                        name="gsearch"
+                        placeholder="Search for order number"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="check_out">
+                <h3>Checkout at</h3>
+                <label for="">
+                  <input
+                    id="datepicker"
+                    placeholder="Start date      -   End date"
+                  />
+                  <img src="css/icon/calendar.svg" alt="" />
+                </label>
+              </div>
+            </div>
+            <div class="show_all">
+              <span>Show all 71,563 items</span>
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />Display
+                order items
+              </label>
+            </div>
+            <div class="order_list">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>Order number</span>
+              <span class="cus">Customer</span>
+              <span class="pro">Proccessing status</span>
+              <span class="fuli">Fulfillment</span>
+              <span class="check">Tracking</span>
+              <span class="logo">Profit</span>
+              <span class="note">Note</span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+            <div class="order_list infor">
+              <label for="">
+                <input type="checkbox" name="sport" value="item01" />
+              </label>
+              <span>
+                <strong class="fst">RP-52747-4469</strong>
+                Order number
+              </span>
+              <span class="cus">
+                <strong>Jack Nicholson</strong>
+                Order number
+              </span>
+              <span class="prod">
+                <a href=""> In production </a>
+              </span>
+              <span class="fuli">
+                <a href="" class="ful"> Fulfilled </a>
+              </span>
+              <span class="check"><img src="css/icon/check.svg" alt="" /></span>
+              <span class="logo">
+                <a href=""></a>
+                2.34 USDC
+              </span>
+            </div>
+          </div>
+          <div class="page_num">
+            <div class="seri_page">
+              <a href="">
+                <img src="css/icon/left.svg" alt="" />
+              </a>
+              <a href="">1</a>
+              <a href="">2</a>
+              <a href="">3</a>
+              <a href="">4</a>
+              <a href="">5</a>
+              <a href="">6</a>
+              <a href="">...</a>
+              <a href="">123</a>
+              <a href="">124</a>
+              <a href="">125</a>
+              <a href="">
+                <img src="css/icon/arrow-left.svg" alt="" />
+              </a>
+            </div>
+            <div class="num_page">
+              <a href="">20/page</a>
+              <a href="">
+                <img src="css/icon/down.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrp">
+          <div class="col head">
+              <a href="">
+                  <img src="./css/icon/iconmeta.svg" alt="">
+              </a>
+              <div class="column">
+                      The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.
+              </div>      
+          </div>
+          <div class="col">
+              <div class="heading">
+                  Customer Services
+              </div>
+              <div class="column">
+              <div class="row">
+                 <a href="" class="name">About us</a>
+              </div>
+              <div class="row">
+                 <a href="" class="name">Community Blog</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Rewards</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Work with Us</a>
+              </div>    
+              </div>      
+          </div>
+          <div class="col">
+              <div class="heading">
+                  Customer Services
+              </div>
+              <div class="column">
+              <div class="row">
+                 <a href="" class="name">About us</a>
+              </div>
+              <div class="row">
+                 <a href="" class="name">Community Blog</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Rewards</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Work with Us</a>
+              </div>    
+              </div>      
+          </div>
+          <div class="col">
+              <div class="heading">
+                  Customer Services
+              </div>
+              <div class="column">
+              <div class="row">
+                 <a href="" class="name">About us</a>
+              </div>
+              <div class="row">
+                 <a href="" class="name">Community Blog</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Rewards</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Work with Us</a>
+              </div>    
+              </div>      
+          </div>
+          <div class="col">
+              <div class="heading">
+                  Customer Services
+              </div>
+              <div class="column">
+              <div class="row">
+                 <a href="" class="name">About us</a>
+              </div>
+              <div class="row">
+                 <a href="" class="name">Community Blog</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Rewards</a>
+              </div>  
+              <div class="row">
+                  <a href="" class="name">Work with Us</a>
+              </div>    
+              </div>      
+          </div>
+         
+      </div>
+      <div class="copyright">
+          <div class="wrp">
+              <div class="row">
+                  © 2022 Metamerch
+              </div>
+              <dov class="row">
+                  <a href="">Privacy Policy</a>
+                  <a href="">Terms of Service</a>
+              </dov>
+          </div>
+      </div>
+  </footer>
+  </body>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="slick-1.8.1/slick/slick.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/add.js"></script>
+  <script src="js/slide.js"></script>
+ <script src="js/date.js"></script>
+ <script type="text/javascript" src="js/profile.js"></script>
+</html>
