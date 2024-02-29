@@ -135,9 +135,24 @@
     }
 }
 @media(max-width:431px){
-    .wrp .tagss, .pro, .para{
+    .wrp .pro, .para{
         display: none;
     }
+    .wrp .tagss{
+        flex-wrap: wrap;
+        flex-direction: unset;
+    }
+    .tagss span{
+        width: calc((100% - 16px) / 2);
+
+        padding:12px;
+        align-items: center;
+        justify-content: center;
+    }   
+    .tagss span h2,h3{
+        font-size: 14px;
+    }
+    
     .slick-next{
         display: none !important;
     }
