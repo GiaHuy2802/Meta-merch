@@ -164,7 +164,7 @@ header .wrp1 a.menu-button{
         flex-wrap: wrap;
     }
     footer .wrp .col.head{
-        width: 80%;
+        width: 100%;
     }
 }
 @media(max-width:991px){
