@@ -9,7 +9,7 @@ $(".slider-for").slick({
   autoplay: true,
   responsive: [
     {
-      breakpoint: 480, // Kích thước màn hình dưới 480px
+      breakpoint: 480, 
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
