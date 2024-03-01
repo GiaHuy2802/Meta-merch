@@ -60,6 +60,8 @@
       transform: translateY(-15px);
     }
     .custom-select.opened .custom-options {
+      height: 200px;
+      overflow-y: auto;
         z-index: 10;
       opacity: 1;
       visibility: visible;

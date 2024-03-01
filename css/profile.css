@@ -78,7 +78,13 @@ a.conf span{
     color: #202121;
     border-radius: 8px;
 }
+@media(max-width:1199px){
+    .wrp_profile .profile .pro_left{
+        width: 100%;
+    }
+}
 @media(max-width:991px){
+    
     .col_right .heading{
         text-align: center;
     }
@@ -86,10 +92,7 @@ a.conf span{
         flex-direction: column-reverse;
         flex-wrap: unset;
     }
-    .wrp_profile .profile .pro_left{
-        width: 100%;
-        align-items: center;
-    }
+  
     .wrp_profile .profile .pro_right{
         width: unset;
     }
@@ -99,6 +102,7 @@ a.conf span{
     .wrp_profile .profile .pro_right img{
         width: 30%;
     }
+    
 }
 @media(max-width:768px){
     .col_right .heading{
@@ -134,6 +138,7 @@ a.conf span{
     a.conf{
         padding-bottom: 12px;
     }
+   
 }
 @media(max-width:391px){
     .custom-select-trigger:after {
