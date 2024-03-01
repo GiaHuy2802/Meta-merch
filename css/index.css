@@ -275,12 +275,13 @@ gap: 24px;
     .collection .wrp .collection_items .Item{
         width: 100%;
     }
+    .slider-nav.slick-initialized.banner{
+        display: none;
+    }
     .suggest .wrp .collection_items .Item{
         width: 100%;
     }
-    .banner{
-        display: none;
-    }
+
     .collection .wrp .collection_items .Item a img{
         width: 100%;
     }

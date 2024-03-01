@@ -270,7 +270,9 @@ fieldset button{
   .button-open-filter {
     display: flex;
   }
-  
+  .profile{
+    margin-bottom: unset;
+}
   .filter .sort-order a {
     color: black;
     padding: 0;
