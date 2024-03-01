@@ -36,7 +36,7 @@ header .wrp1{
     cursor: pointer;
 }
 .wrp1 .Search_trend form#live-search.styled fieldset input#filter.text-input{
-    padding: 0 12px;
+
     border: unset;
 }
 .wrp1 .Search_trend .Trend{
@@ -258,9 +258,7 @@ header .wrp1 a.menu-button{
     .wrp1 .Search_trend {
     width: 100%;
     }
-    .wrp1 .Search_trend .Trend{
-        flex-wrap: wrap;    
-    }
+  
     .wrp1 .Search_trend{
         gap: 12px;
     }

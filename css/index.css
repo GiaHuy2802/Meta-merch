@@ -275,7 +275,7 @@ gap: 24px;
     .collection .wrp .collection_items .Item{
         width: 100%;
     }
-    .slider-nav.slick-initialized.banner{
+    .slider-nav.slick-initialized.slick-slider{
         display: none;
     }
     .suggest .wrp .collection_items .Item{

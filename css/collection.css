@@ -189,6 +189,8 @@ fieldset button{
   width: calc((100% - 72px) / 4);
   border: 1px solid #202121;
   border-radius: 8px;
+  border-top-left-radius: 33px;
+  border-top-right-radius: 33px;
 }
 .filter .wrp .Col_right .collection_items .Item a img {
   width: 100%;
@@ -204,6 +206,8 @@ fieldset button{
   background: #202121;
   padding: 16px 12px;
   text-align: unset;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 .filter .wrp .Col_right .collection_items .Item .Infor_item span {
   font-size: 14px;
