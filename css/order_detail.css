@@ -217,20 +217,37 @@ span.shipping{
     .progress hr.n4{
         right: 134px;
     }
-}
-@media(max-width:900px)and (min-width:800px){
+}@media(max-width:844px){
     .progress hr{
-        top: 289px;
-        width: 102px;
+        top: 286px;
+        width: 105px;
     }
     .progress hr.n1{
-        right: 607px;
+        right: 605px;
     }
     .progress hr.n2 {
-        right: 450px;
+        right: 448px;
     }
     .progress hr.n3 {
-        right: 292px;
+        right: 290px;
+    }
+    .progress hr.n4{
+        right: 134px;
+    }
+}
+@media(max-width:840px)and (min-width:800px){
+    .progress hr{
+        top: 289px;
+        width: 94px;
+    }
+    .progress hr.n1{
+        right: 575px;
+    }
+    .progress hr.n2 {
+        right: 429px;
+    }
+    .progress hr.n3 {
+        right: 281px;
     }
     .progress hr.n4{
         right: 135px;
@@ -238,8 +255,8 @@ span.shipping{
 }
 @media(max-width:768px){
     .progress hr{
-        top: 287px;
-        width: 88px;
+        top: 412px;
+        width: 85px;
     }
     .progress hr.n1{
         right: 550px;
