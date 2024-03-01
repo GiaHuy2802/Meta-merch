@@ -15,7 +15,7 @@ $(".slider-nav").slick({
   dots: false,
   centerMode: true,
   focusOnSelect: true,
-  arrows: false,
+  arrows: true,
   autoplay: true,
   infinite:true,
   responsive: [
