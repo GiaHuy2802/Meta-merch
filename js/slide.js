@@ -7,6 +7,16 @@ $(".slider-for").slick({
   asNavFor: ".slider-nav",
   Infinity: true,
   autoplay: true,
+  responsive: [
+    {
+      breakpoint: 480, // Kích thước màn hình dưới 480px
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay:false,
+      }
+    }
+  ]
 });
 $(".slider-nav").slick({
   slidesToShow: 3,
@@ -17,4 +27,5 @@ $(".slider-nav").slick({
   arrows: false,
   autoplay: true,
   infinite:true,
+ 
 });
