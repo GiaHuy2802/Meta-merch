@@ -43,13 +43,29 @@
     flex-direction: column;
     gap: 24px;
 }
+.profile .pro_left form button{
+    background: unset;
+    border: unset;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+  
+}
+.profile .pro_left form button span{
+    display: flex;
+    cursor: pointer;
+    padding: 12px 71px;
+    background: #00FFF0;
+    border-radius: 8px;
+
+}
 .profile form label {
     display: flex;
     flex-direction: row;   
     align-items: center;
     gap: 24px;
 }
-.profile button, input:not([type=checkbox],[type=radio]), textarea{
+input:not([type=checkbox],[type=radio]), textarea{
     background: unset;
     border: unset;
     color: white;
