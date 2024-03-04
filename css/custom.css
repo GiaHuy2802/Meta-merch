@@ -180,6 +180,9 @@ header .wrp1 a.menu-button{
         order: 1
         ;
     }
+    header .wrp1 a img{
+        width: 80%;
+    }
     .wrp1 .wallet{
         order: 2;
     }
