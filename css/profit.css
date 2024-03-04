@@ -106,9 +106,7 @@ a.Action{
     .seller_product .wrp1{
         width: 430px;
     }
-    .tag_number{
-        display: none;
-    }
+
     .seller_product .order_list span.Action{
         display: none;
     }
@@ -117,6 +115,21 @@ a.Action{
     }
     .seller_product .order_list span.Orders{
         display: none;
+    }
+    .col_right .heading{
+        display: flex;
+    }
+    .tag_number{
+        flex-wrap: wrap;
+    }
+    .tag_number span{
+        width: calc((100% - 24px ) / 2);
+        padding: 12px;
+        gap: 12px;
+    }
+    .tag_number span strong{
+        font-size: 14px;
+        align-items: center;
     }
 }
 @media(max-width:391px){

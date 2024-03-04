@@ -572,6 +572,9 @@ a.color3 span{
     .Product_detail .col_right{
         top: 1208px;
     }
+    .Product_detail .wrp .head{
+        align-items: center;
+    }
  
     .col_right .size_color{
         flex-direction: column;

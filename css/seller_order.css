@@ -95,9 +95,12 @@
     flex-direction: row;
     border-radius: 8px;
     border: 1px solid #FFFFFF3D ;
+    width: 220px;
 }
 .order_status .check a{
-    padding: 16px;
+    text-align: center;
+    padding: 16px 8px;
+    width: calc(100% / 3);
 }
 .check a.bet{
     border-left: 1px solid #FFFFFF3D ;
@@ -111,11 +114,19 @@
 }
 .show_all label{
     display: flex;
+    align-items: center;
+    gap: 8px;
 }
 .check a:hover{
     border: 1px solid #00FFF0;
     color: #00FFF0;
-
+    height: 52px;
+}
+.check a:hover:last-child{
+    border: 1px solid #00FFF0;
+    color: #00FFF0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .col_right .search_by{
@@ -136,7 +147,8 @@
 }
 .search_by .search .number form select{
     background: unset;
-    color: #fff;
+    color: #FFFFFF;
+
     border: unset;
 }
 .search_by .col_left1{
@@ -176,6 +188,7 @@
 .search_bar input{
     background: unset;
     border: unset;
+    color: #fff;
 }
 .check_out label input{
     color: #fff;
@@ -202,6 +215,11 @@
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
+label input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    accent-color: #00fff0;
 }
 .order_list span.logo{
     display: flex;
@@ -279,6 +297,38 @@ span a.ful{
     line-height: 20px;
 }
 @media(max-width:1199px){
+    .check a:hover:last-child{
+        border: unset;
+        color: unset;
+        border-radius: unset;
+    }
+    span.note{
+        display: none;
+        
+    }
+    .wrp1{
+        padding: 12px ;
+    }
+    .search_by .col_left1{
+        width: calc((100% - 12px) /2);
+    }
+    .col_right .search_by{
+        justify-content: space-between    }
+    .check a:hover{
+        border: unset;
+        background: unset;
+        color: unset;
+    }
+    .col_right{
+        width: 100%;
+    }
+    label span.input{
+        width: 100%;
+    }
+    .wrp_profile .profile{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
     .wrp .col_left .wrp_col_left{
         height: 100%;
         overflow-y: auto;
@@ -329,6 +379,12 @@ span a.ful{
     .seller_order{
     margin-bottom: var(--block-margin-primary);
     }
+   
+}
+@media(max-width:900px) and (min-width:800px){
+    .order_list span.fuli{
+        display: none;
+    }
 }
 @media(max-width:768px){
     .col_right{
@@ -342,23 +398,30 @@ span a.ful{
     }
 }
 @media(max-width:450px){
+    .order_list{
+        gap: unset;
+    }
     .wrp .col_left .wrp_col_left{
         width: 80%;
         height: 100%;
         overflow-y: auto;
     }
-    .wrp1{
-        padding: unset;
-    }
+
     .col_right .heading{
         display: none;
         
     }
     .col_right .status{
-        display: none;
+       gap: 8px;
     }
-    .col_right .search_by{
-        display: none;
+    .col_right .status{
+        flex-direction: column;
+    }
+    .col_right .status .order_status{
+        width: calc((100% - 8px )/ 2);
+    }
+    .wrp1 {
+        padding: 8px;
     }
     .show_all{
         display: none;
@@ -376,6 +439,9 @@ span a.ful{
 
 }
 @media(max-width:391px){
+    .col_right .status .order_status{
+        width: unset;
+    }
     .order_list label{
         display: none;
     }

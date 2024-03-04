@@ -58,6 +58,7 @@
 mark{
     color : #34e2e3;
     background: unset;
+    cursor: pointer;
 }
 .shipping_address{
     
@@ -100,6 +101,11 @@ mark{
 .thankyou p{
     margin: 0;
 }
+@media(max-width:1199px){
+    .line.shipping{
+        align-items: center;
+    }
+}
 @media(max-width:431px){
     .total.mark{
         flex-direction: column;
@@ -111,5 +117,20 @@ mark{
     }
     .thankyou p{
         text-align: center;
+    }
+ 
+    .line span{
+        width: unset;
+    }
+    .form_address .line{
+        justify-content: space-between;
+    }
+    
+    .line.shipping p{
+        width: 78px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
     }
 }
