@@ -269,4 +269,7 @@ input[type="radio"] {
     .shipping.payment .state .price{
         display: none;
     }
+    .cart .wrp{
+        padding: unset !important;
+    }
 }
