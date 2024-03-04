@@ -47,7 +47,7 @@
     flex-direction: column;
     width: calc((100% - 120px ) / 6);
     border: 1px solid #202121;
-    border-radius: 8px;
+    border-radius: 50%;
 }
 .collection .wrp .collection_items .Item .Infor_item p{
     display: -webkit-box;
@@ -65,6 +65,8 @@
     line-height: 18px;
     text-align: center;
     background: #202121;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .collection .wrp .collection_items .Item .Infor_item span{
     font-size: 14px;
