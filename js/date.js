@@ -21,7 +21,7 @@
     const picker = new easepick.create({
       element: document.getElementById('datepicker'),
       css: [
-      'C:/Users/ADMIN/Desktop/Meta Merch/css/index1.css',
+      'css/index1.css',
         'https://easepick.com/css/demo_hotelcal.css',
       ],
       plugins: ['RangePlugin', 'LockPlugin'],
