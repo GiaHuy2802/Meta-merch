@@ -154,7 +154,16 @@ a.conf span{
     a.conf{
         padding-bottom: 12px;
     }
-   
+    header .wrp1 a{
+        width: 43%;
+    }
+    .wrp1 .wallet a{
+        width: unset;
+    }
+    .wrp1 .wallet a.wall{
+        width: unset;
+    }
+
 }
 @media(max-width:391px){
     .custom-select-trigger:after {

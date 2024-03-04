@@ -255,7 +255,7 @@ span.shipping{
 }
 @media(max-width:768px){
     .progress hr{
-        top: 412px;
+        top: 296px;
         width: 85px;
     }
     .progress hr.n1{
@@ -268,7 +268,7 @@ span.shipping{
         right: 271px;
     }
     .progress hr.n4{
-        right: 132px;
+        right: 134px;
     }
 }
 @media(max-width:431px){

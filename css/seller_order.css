@@ -58,8 +58,10 @@
 
 
 .col_left .account .icon a{
-    width: 20px;
-    background: url(./icon/profile-circle.svg) no-repeat center center;}
+cursor: pointer;
+display: flex;
+gap: 8px;
+align-items: center;}
 
 .col_right{
     width: 984px;
@@ -112,6 +114,7 @@
     color: #00FFF0;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    height: 52px;
 }
 .show_all label{
     display: flex;
@@ -177,7 +180,7 @@
     padding: 0 10px;
     border: 1px solid #FFFFFF3D;
     border-radius: 8px;
-
+    display: flex;
 }
 .check_out form {
     border: 1px solid #FFFFFF3D;
@@ -400,6 +403,15 @@ span a.ful{
     }
 }
 @media(max-width:450px){
+    header .wrp1 a{
+        width: 43%;
+    }
+    .wrp1 .wallet a{
+        width: unset;
+    }
+    .wrp1 .wallet a.wall{
+        width: unset;
+    }
     .order_list{
         gap: unset;
     }

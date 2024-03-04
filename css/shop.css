@@ -154,8 +154,8 @@
         align-items: center;
         justify-content: center;
     }   
-    .tagss span h2,h3{
-        font-size: 14px;
+    .tagss span h2, h3{
+        font-size: 20px;
     }
     
     .slick-next{

@@ -17,15 +17,17 @@ form label{
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
     width: 100%;
     text-align: center;
+    justify-content: space-between;
 }
 .tag_number span strong{
     font-size: 32px;
     text-align: center;
     display: flex;
     gap: 8px;
+    align-items: center;
 }
 .seller_product .order_list span.name{
     width: 230px;
@@ -42,7 +44,7 @@ form label{
 .seller_product .order_list span.Sales{
     width: 73px;
 }
-.seller_product .order_list span.Conversion Rate{
+.seller_product .order_list span.Conversion .Rate{
     width: 100px;
 }
 .seller_product .order_list span.Profit{
@@ -67,17 +69,17 @@ a.Action{
 .order_list span{
     display: unset;
 }
+@media(max-width:1199px){
+    .seller_product .wrp1{
+        width: 100%;
+    }
 
+}
 @media(max-width:991px){
     .seller_product .wrp{
         padding: unset !important;
     }
-    .col_right{
-        width: 932px;
-    }
-    .seller_product .wrp1{
-        width: 932px;
-    }
+
     label{
         display: flex;
         flex-direction: row;
@@ -86,12 +88,7 @@ a.Action{
     }
 }
 @media(max-width:768px){
-    .col_right{
-        width: 768px;
-    }
-    .seller_product .wrp1{
-        width: 768px;
-    }
+
     .seller_product .order_list span.view{
         display: none;
     }
@@ -100,12 +97,6 @@ a.Action{
     }
 }
 @media(max-width:431px){
-    .col_right{
-        width: 430px;
-    }
-    .seller_product .wrp1{
-        width: 430px;
-    }
 
     .seller_product .order_list span.Action{
         display: none;
@@ -123,7 +114,7 @@ a.Action{
         flex-wrap: wrap;
     }
     .tag_number span{
-        width: calc((100% - 24px ) / 2);
+        width: calc((100% - 48px ) / 3);
         padding: 12px;
         gap: 12px;
     }
@@ -133,12 +124,7 @@ a.Action{
     }
 }
 @media(max-width:391px){
-    .col_right{
-        width: 390px;
-    }
-    .seller_product .wrp1{
-        width: 390px;
-    }
+
     .seller_product .order_list span.Sales{
         display: none;
     }

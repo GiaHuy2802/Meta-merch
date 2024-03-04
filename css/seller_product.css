@@ -113,29 +113,21 @@ span.test1 a{
     .seller_product .wrp{
         padding: unset !important;
     }
-    .col_right{
-        width: 932px;
-    }
+
 }
 @media(max-width:844px){
-    .col_right{
-        width: 844px;
-    }
+
 }
 @media(max-width:768px){
     .seller_product .wrp{padding: unset !important;
     }
-    .col_right{
-        width: 768px;
-    }
+
     .seller_product .order_list span.test {
         width: 76px;
     }
 }
 @media(max-width:431px){
-    .col_right{
-        width: 430px;
-    }
+
     .order_list span.collection{
         display: none;
     }
