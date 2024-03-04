@@ -578,13 +578,15 @@ a.color3 span{
     .Product_detail .col_right{
         top: 1208px;
     }
-
+    .comment_rating .top .head{
+        flex-direction: column !important;
+    }
  
     .col_right .size_color{
         flex-direction: column;
     }
     .Product_detail .wrp .head{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .Product_detail .wrp .head .choose{
         flex-direction: row;

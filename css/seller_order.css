@@ -387,9 +387,6 @@ span a.ful{
    
 }
 @media(max-width:900px) and (min-width:800px){
-    .order_list span.fuli{
-        display: none;
-    }
 }
 @media(max-width:768px){
     .col_right{
@@ -413,7 +410,10 @@ span a.ful{
         width: unset;
     }
     .order_list{
-        gap: unset;
+        overflow-x: auto;
+        width: 100%;
+        white-space: nowrap;
+        flex-wrap: unset;
     }
     .wrp .col_left .wrp_col_left{
         width: 80%;
@@ -440,12 +440,6 @@ span a.ful{
     .show_all{
         display: none;
     }
-    .order_list span.cus, .fuli{
-        display: none;
-    }
-    .order_list span.fuli{
-        display: none;
-    }
     .page_num{
         display: none;
     }
@@ -455,9 +449,6 @@ span a.ful{
 @media(max-width:391px){
     .col_right .status .order_status{
         width: unset;
-    }
-    .order_list label{
-        display: none;
     }
     .order_list{
         gap: 8px;

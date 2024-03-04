@@ -29,7 +29,7 @@ li {
     background-color: #05cae129;
     border-radius: 5px;
     display: flex;
-    padding: 15px;
+    padding: 16px;
     align-items: center;
     justify-content: space-between;
     .selected {

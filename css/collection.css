@@ -330,7 +330,7 @@ fieldset button{
     display: flex !important;
     color: #00fff0;
     background: #05cae129;
-    padding: 8px;
+    padding: 16px;
     border-radius: 8px;
     align-items: center;
   }

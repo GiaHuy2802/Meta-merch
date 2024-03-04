@@ -212,7 +212,7 @@ a.st{
 .shipping.payment .state.fst a.radio {
     width: unset;
     display: flex;
-    padding: 12px 16px;
+    padding: 12px 0;
     background: #292929;
     border-radius: unset;
     gap: 8px;

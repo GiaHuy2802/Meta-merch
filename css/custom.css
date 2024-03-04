@@ -141,7 +141,7 @@ header .wrp1 a.menu-button{
         padding: 16px 24px !important;
     }
     header .wrp1{
-        padding: 16px 24px;
+        padding: 16px;
         justify-content: unset;
         align-items: center;
         gap: 24px;
@@ -226,9 +226,15 @@ header .wrp1 a.menu-button{
     header .wrp1{   
         flex-wrap: wrap;
         flex-direction: unset;
-
+       justify-content: center;
     }
-  
+    
+    header .wrp1 a img{
+        width: 150px;
+    }
+    nav.Trend a img {
+        width: unset;
+    }
     .wrp1 .wallet a.wall{
         padding: 12px;
     }
@@ -249,7 +255,7 @@ header .wrp1 a.menu-button{
         order: 3;
     }
     .wrp1 .wallet{
-        width: 38%;
+
         order: 2;
     }
     .wrp1 .Search_trend {
