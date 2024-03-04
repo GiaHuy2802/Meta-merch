@@ -176,10 +176,17 @@ header .wrp1 a.menu-button{
     .wrp1 .Search_trend{
         gap: 16px;
     }
+    header .wrp1 a{
+        order: 1
+        ;
+    }
+    .wrp1 .wallet{
+        order: 2;
+    }
    
     header .wrp1{
-        flex-wrap: wrap;
-        justify-content: center
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
     }
     .wrp1 .Search_trend .Trend{
         justify-content: center;
