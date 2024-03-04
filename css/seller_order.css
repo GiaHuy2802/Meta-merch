@@ -96,6 +96,7 @@
     border-radius: 8px;
     border: 1px solid #FFFFFF3D ;
     width: 220px;
+    height: 52px;
 }
 .order_status .check a{
     text-align: center;
@@ -316,6 +317,7 @@ span a.ful{
         justify-content: space-between    }
     .check a:hover{
         border: unset;
+        border-right: 1px solid #FFFFFF3D;
         background: unset;
         color: unset;
     }
