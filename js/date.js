@@ -30,8 +30,8 @@
           return num - 1;
         },
         locale: {
-          one: 'night',
-          other: 'nights',
+          one: 'days',
+          other: 'days',
         },
       },
       LockPlugin: {
