@@ -259,6 +259,7 @@ input[type="radio"] {
     }
     .cart .wrp .col_right .wrp1{
     width: 100%;}
+
 }
 @media(max-width:768px){
     .shipping form .select{

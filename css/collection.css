@@ -52,8 +52,8 @@
   align-items: ce;
 }
 fieldset button{
-  width: 15px;
-  background: url(./icon/Search-other.svg) no-repeat center center;
+  width: 15px !important;
+  background: url(./icon/Search-other.svg) no-repeat center center !important;
   cursor: pointer;
   border: unset;
 }
@@ -312,6 +312,9 @@ fieldset button{
     left: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 10;
+  }
+  .filter .wrp .Col_right{
+    width: 100%;
   }
   .filter .wrp .Col_left.active {
     display: block;

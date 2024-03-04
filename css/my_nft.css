@@ -43,6 +43,9 @@
     .filter .wrp .Col_right .top .sort_by{
         display: flex;
     }
+    fieldset button{
+        width: 30px !important;
+    }
     .filter .wrp .Col_right .top .sort_by a:hover{
         background: unset;
         border: 1px solid #FFFFFF3D;
@@ -57,15 +60,21 @@
         width: 100%;
     }
     .filter .wrp .Col_right .top .sort_by{
-        display: none;
+        flex-wrap: wrap;
+    }
+    .filter .wrp .Col_right .top .sort_by a{
+        width: calc((100% - 8px) / 2);
+        display: flex;
+        justify-content: center;
     }
     .filter .wrp .Col_right .collection_items .Item a img {
         width: 100%;
     }
     .filter .wrp .Col_right .top{
-        display: none;
+     
     }
     .filter .wrp .Col_right .heading{
         text-align: center;
     }
+
 }
