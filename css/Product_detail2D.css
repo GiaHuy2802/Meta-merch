@@ -455,6 +455,12 @@ a.color3 span{
     .col_right .shipping span{
         width: 100%;
     }
+    @media(max-width:1199px){
+        .buy_button a {
+          width: 100%;
+          justify-content: center   ;
+        }
+      }
  }
 
  @media(max-width:1024px){
