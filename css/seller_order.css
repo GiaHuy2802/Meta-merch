@@ -40,12 +40,22 @@
 .account h3{
     padding: 22px 24px;
 }
+.order_infor_list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap;
+    flex-wrap: wrap;
+
+}
 .account .icon{
     color: #FFFFFFA3;
     padding: 22px 24px;
     display: flex;
     gap: 8px;
-   
+   cursor: pointer;
 }
 .account .icon.active{
     background: #00FFF029;
@@ -401,7 +411,7 @@ span a.ful{
 }
 @media(max-width:450px){
     header .wrp1 a{
-        width: 43%;
+        width: 37%;
     }
     .wrp1 .wallet a{
         width: unset;
@@ -409,12 +419,7 @@ span a.ful{
     .wrp1 .wallet a.wall{
         width: unset;
     }
-    .order_list{
-        overflow-x: auto;
-        width: 100%;
-        white-space: nowrap;
-        flex-wrap: unset;
-    }
+ 
     .wrp .col_left .wrp_col_left{
         width: 80%;
         height: 100%;
@@ -443,7 +448,9 @@ span a.ful{
     .page_num{
         display: none;
     }
-  
+    .order_list{
+        flex-wrap: unset;
+    }
 
 }
 @media(max-width:391px){

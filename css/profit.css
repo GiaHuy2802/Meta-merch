@@ -88,25 +88,29 @@ a.Action{
     }
 }
 @media(max-width:768px){
+    .list_collection{
 
-    .seller_product .order_list span.view{
-        display: none;
-    }
-    .seller_product .order_list span.Unit{
-        display: none;
-    }
+        gap: 24px;
+        overflow-x: auto;
+        width: 100%;
+        white-space: nowrap;
+        flex-wrap: wrap;
+        }
+        .seller_product .order_list span.view{
+            width: 47px;
+        }
+        .seller_product .order_list span.name{
+            width: 320px;
+        }
+        .order_list.infor .infor{
+            width: 320px;
+        }
+
 }
 @media(max-width:431px){
 
-    .seller_product .order_list span.Action{
-        display: none;
-    }
-    a.Action{
-        display: none;
-    }
-    .seller_product .order_list span.Orders{
-        display: none;
-    }
+
+
     .col_right .heading{
         display: flex;
     }
@@ -121,12 +125,6 @@ a.Action{
     .tag_number span strong{
         font-size: 14px;
         align-items: center;
+        height: 32px;
     }
-}
-@media(max-width:391px){
-
-    .seller_product .order_list span.Sales{
-        display: none;
-    }
-
 }

@@ -88,6 +88,15 @@
   gap: 8px;
   cursor: pointer;
 }
+.cart_detail .cart_tag .add_1 select{
+  color:#fff;
+  background: unset;
+  border: unset;
+}
+.cart_detail .cart_tag .add_1 option{
+color: black;
+padding: 8px;
+}
 .cart_detail .cart_tag .add_2 {
   display: flex;
   gap: 8px;
@@ -188,12 +197,21 @@
   gap: 10px;
   align-items: center;
 }
+.cart .wrp .col_left .bottom a.lp input{
+  width: 16px;
+  height: 16px;
+  accent-color: #00fff0;
+}
+.cart .wrp .col_left .bottom a.lp input:hover{
+  width: 16px;
+  background: url(./icon/checkbox.svg);
+}
 @media (max-width: 1199px) {
   .cart .wrp {
     margin-bottom: unset;
   }
   .cart .wrp .col_left {
-    width: unset;
+    width: 100%;
   }
   .cart .wrp .col_right {
     width: 100%;
@@ -225,7 +243,7 @@
     width: unset;
   }
   .cart .wrp .col_left .cart_buy .cart_price {
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .cart .wrp .col_right .wrp1 {
     width: unset;

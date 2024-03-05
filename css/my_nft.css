@@ -29,6 +29,7 @@
 }
 .filter .wrp .Col_right .collection_items .Item a img{
     width: unset;
+    border-radius: 16px 16px 0 0 ;
 }
 .filter .wrp .Col_right .collection_items .Item .Infor_item a{
     padding: 12px;
@@ -36,8 +37,6 @@
     border-radius: 8px;
     background: #00FFF029;
     color: #00FFF0;
-
-
 }
 @media(max-width:1199px){
     .filter .wrp .Col_right .top .sort_by{

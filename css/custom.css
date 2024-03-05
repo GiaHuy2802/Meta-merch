@@ -228,7 +228,9 @@ header .wrp1 a.menu-button{
         flex-direction: unset;
        justify-content: center;
     }
-    
+    header .wrp1 nav.Trend a {
+        width: unset;
+    }
     header .wrp1 a img{
         width: 150px;
     }
@@ -266,20 +268,24 @@ header .wrp1 a.menu-button{
         gap: 12px;
     }
     .menu .wrp{
-        flex-direction: column;
+       flex-wrap: wrap;
     }
     .wrp1 .wallet a img{
         width: 30px;
     }
     .menu .wrp .home_menu{
         gap: 12px;
+        width: 100%;
+        justify-content: space-around;
     }
     .menu .wrp{
-        gap: 8px;
+        gap: 16px;
         align-items: center;
     }
     .menu .wrp .contact{
         gap: 12px;
         align-items: center;
+        width: 100%;
+        justify-content: space-around;
     }
 }
