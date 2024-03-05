@@ -455,17 +455,21 @@ a.color3 span{
     .col_right .shipping span{
         width: 100%;
     }
-    @media(max-width:1199px){
+@media(max-width:1199px){
         .buy_button a {
           width: 100%;
           justify-content: center   ;
         }
       }
+ 
  }
 
  @media(max-width:1024px){
     .Product_detail .col_right{
         display: none;
+    }
+    .col_left .col_right{
+        display: flex
     }
     .Product_detail .col_left{
         gap: 24px;
@@ -680,7 +684,7 @@ a.color3 span{
         gap: 8px;
     }
     .buy_button a{
-        padding: 5px 14px;
+        padding: 5px 35px;
     }
   
     .Product_detail .col_right{
