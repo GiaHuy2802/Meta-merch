@@ -197,7 +197,7 @@ a.st{
     border-left: 1px solid #FFFFFF3D;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-
+    padding-right: 10px;
 }
 
 .shipping.payment .state a {
@@ -234,7 +234,19 @@ input[type="radio"] {
     background: #292929;
     align-items: center;
     gap: 8px;
-    color:#8c8c8c   ;
+    color:#8c8c8c;
+    height: 31px;
+    padding: 10px;
+}
+.shipping.payment .state .price img.active{
+    border: 1px solid #829f9d ;
+    border-radius: 8px;
+    padding: 0 2px;
+}
+.shipping.payment .state .price img:hover{
+    border: 1px solid #829f9d ;
+    border-radius: 8px;
+    padding: 0 2px;
 }
 .shipping.payment .state.fst{
     flex-direction: column;
