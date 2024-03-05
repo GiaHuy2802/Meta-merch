@@ -461,6 +461,9 @@ a.color3 span{
           justify-content: center   ;
         }
       }
+      .col_right.fake{
+        display: none;
+      }
  
  }
 
